@@ -10,39 +10,39 @@
 </head>
 
 <body>
-    <nav class ="navbar">
+    <nav class="navbar">
         <h3>Styling Form Elements</h3>
     </nav>
 
     <div class="main-div">
-        <form class = "Employee-Form">
-            <fieldset class = "Employee-Fieldset">
+        <form class="Employee-Form">
+            <fieldset class="Employee-Fieldset">
                 <input name="FirstName" type="text" placeholder="Enter your First Name">
                 <input name="LastName" type="text" placeholder="Enter your Last Name">
 
                 <input name="Mobile" type="number" placeholder="Enter Your Mobile Number" maxlength="10">
                 <input name="Alternate" type="number" placeholder="Enter Alternate Mobile Number" maxlength="10">
 
-                <div class = "dob-div">
-                    <label for="dob" class = "Dob-Heading">Enter Your DOB: </label>
-                    <input id ="dob" name="dob" type="date">
+                <div class="dob-div">
+                    <label for="dob" class="Dob-Heading">Enter Your DOB: </label>
+                    <input id="dob" name="dob" type="date">
                 </div>
 
                 <div class="radio-div">
-                    <label class = "Gender-Heading">Select your Gender: </label>
+                    <label class="Gender-Heading">Select your Gender: </label>
                     <br>
-                    <input name="male" id="male" type="radio" value="Male">
+                    <input name="gender" id="male" type="radio" value="Male">
                     <label for="male">Male</label>
                     <br>
-                    <input name="female" id="female" type="radio" value="Female">
+                    <input name="gender" id="female" type="radio" value="Female">
                     <label for="female">Female</label>
                     <br>
-                    <input name="other" id="other" type="radio" value="Other">
+                    <input name="gender" id="other" type="radio" value="Other">
                     <label for="other">Other</label>
                 </div>
 
                 <div class="hobbies-div">
-                    <label class = "Hobbies-Heading">Select Your Hobbies: </label>
+                    <label class="Hobbies-Heading">Select Your Hobbies: </label>
                     <br>
                     <input name="webDevelopment" id="webDevelopment" type="checkbox" value="Web Development">
                     <label for="webDevelopment">Web Development</label>
@@ -53,28 +53,35 @@
                     <input name="otherr" id="otherr" type="checkbox" value="Other">
                     <label for="otherr">Other</label>
                 </div>
-                <textarea cols="30" rows="10" placeholder="Enter Your Address"></textarea>
 
-                <label for="designation">Select Your Designation: </label>
-                <select name="designation" id="designation">
-                    <option value="Product Manager">Product Manager</option>
-                    <option value="Senior Developer">Senior Developer</option>
-                    <option value="Associate Developer">Associate Developer</option>
-                    <option value="Intern">Intern</option>
-                </select>
-                
-                <label for="salRange">Enter Salary Range: </label>
-                <input list="salRange">
-                <datalist id = "salRange">
-                    <option value="100k- 300k"></option>
-                    <option value="300k- 500k">300k- 500k</option>
-                    <option value="500k- 800k">500k- 800k</option>
-                    <option value="800k- 1000k">800k- 1000k</option>
-                </datalist>
+                <div class="desgination-div">
+                    <label class="Designation" for="designation">Select Your Designation: </label>
+                    <select name="designation" id="designation">
+                        <option value="Product Manager">Product Manager</option>
+                        <option value="Senior Developer">Senior Developer</option>
+                        <option value="Associate Developer">Associate Developer</option>
+                        <option value="Intern">Intern</option>
+                    </select>
+                </div>
+
+                <div class="salary-div">
+                    <label class="SalaryRange" for="salRanges">Enter Salary Range: </label>
+                    <input class="datalist" id="salRanges" list="salRange">
+                    <datalist id="salRange">
+                        <option value="100k- 300k"></option>
+                        <option value="300k- 500k">300k- 500k</option>
+                        <option value="500k- 800k">500k- 800k</option>
+                        <option value="800k- 1000k">800k- 1000k</option>
+                    </datalist>
+                </div>
+
+                <textarea cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+
+                <input type="submit">
             </fieldset>
         </form>
     </div>
-    
+
 </body>
 
 </html>
