@@ -1,0 +1,123 @@
+body{
+    padding : 0;
+    margin: 0;
+}
+
+.header1-3{
+    margin : 1rem;
+    padding : 1rem;
+    background-color: aquamarine;
+}
+
+.div1-header{
+    color: rgb(116, 150, 23);
+}
+
+.header4-6{
+    margin : 1rem;
+    padding : 1rem;
+    background-color: aqua;
+}
+
+.div2-header{
+    color: rgb(62, 93, 231);
+}
+
+p{
+    font-size: large;
+    color : blueviolet;
+}
+
+.anchor{
+    text-decoration: none;
+}
+
+.anchor:hover{
+    color: rgb(0, 255, 13);
+    font-size : larger;
+}
+
+.test-Form{
+    border: rgb(175, 31, 31) solid 12px;
+    background-color: rgba(201, 11, 11, 0.2);
+    padding : 1rem;
+    margin : 1rem;
+    border-radius : 50px 25px ;
+}
+
+.form-elements{
+    border: rgb(152, 235, 96) solid 6px;
+    margin : 1rem;
+    border-radius: 2rem;
+}
+
+table{
+    border : blue solid 5px;
+}
+
+img{
+    border : rgb(62, 93, 231) dashed 4px;
+}
+
+.Only-div{
+    background-color: aquamarine;
+    margin : 1rem;
+    padding: 1rem;
+}
+
+.U-List1{
+    list-style-type: square;
+}
+
+.O-List{
+    list-style-type: lower-greek;
+}
+
+.Parent{
+    border : 5px solid rgb(27, 149, 206);
+    height : 200px;
+    width : 200px;
+    position: relative;
+}
+
+.Child{
+    border : 4px solid rgb(27, 206, 152);
+    border-radius: 50px;
+    height : 100px;
+    width : 100px;
+    position: absolute;
+    bottom: 0;
+    right : 0;
+    margin: 45px;
+    text-align: center;
+
+}
+
+.Page-Fixed{
+    background-image: url('SampleImage.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border : solid rgb(135, 35, 230) 4px;
+    border-radius: 50px;
+    height : 125px;
+    width: 125px;
+    position: fixed;
+    bottom : 0;
+    right : 0;
+}
+
+.Child-span{
+    padding: 10px;
+}
+
+footer{
+    margin-top : 1rem;
+    line-height: 4rem;
+    background-color: rgb(248, 194, 129);
+    text-align: center;
+}
+
+footer > span{
+    color: aliceblue;
+    font-size: larger;
+}
