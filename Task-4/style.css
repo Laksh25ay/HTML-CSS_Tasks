@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+.navbar{
+    margin-bottom: 1rem;
+    padding: 2rem;
+    background-color: rgb(165, 74, 240);
+    text-align: center;
+}
+
+.main-div{
+    border: 2px solid rgb(0, 4, 255);
+    padding: 2rem;
+}
+
+.Employee-Fieldset{
+    border-radius: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: rgb(237, 241, 241);
+}
+
+.dob-div{
+    border: 2px solid chartreuse;
+    text-align: center;
+    margin: 1rem;
+}
+
+.Dob-Heading{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.radio-div{
+    border: 2px solid red;
+    width: 25%;
+    margin: 1rem;
+}
+
+.Gender-Heading{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+.hobbies-div{
+    border: 2px solid cornflowerblue;
+    width: 25%;
+    margin: 1rem;
+}
+
+.Hobbies-Heading{
+    font-weight: bold;
+    margin-right: 1rem;
+}
+
+input[type = text]{
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    width : 15rem;
+    border-bottom: 2px solid rgb(116, 110, 110);
+    border-radius: 2rem 4rem;
+}
+
+input[type = number]{
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    width : 15rem;
+    border-bottom: 2px solid rgb(116, 110, 110);
+    border-radius: 2rem 4rem;
+}
+
+input[type=date]{
+    border: none;
+    margin: 1rem;
+    padding: 1rem;
+    width : 15rem;
+    border-bottom: 2px solid rgb(116, 110, 110);
+    border-radius: 2rem 4rem;
+}
