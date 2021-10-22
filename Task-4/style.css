@@ -154,7 +154,6 @@ input[type = submit]:hover{
     background-color: rgb(212, 226, 9) ;
 }
 
-
 @media screen and (max-width: 435px){
     .main-div{
         margin:0;
@@ -191,3 +190,4 @@ input[type = submit]:hover{
         width: 75%;
     }
 }
+
