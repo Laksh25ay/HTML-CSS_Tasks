@@ -165,6 +165,10 @@ input[type = submit]:hover{
         border-radius: 0;
     }
 
+    .dob-div{
+        width: 100%;
+    }
+
     .salary-div{
         width: 100%;
     }
