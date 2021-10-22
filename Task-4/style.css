@@ -167,6 +167,7 @@ input[type = submit]:hover{
 
     .dob-div{
         width: 100%;
+        margin: 0;
     }
 
     .salary-div{
