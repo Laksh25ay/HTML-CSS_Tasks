@@ -144,7 +144,7 @@ function checkSalary(){
     let sal = salTag.value.trim();
     let salError = document.getElementById("sal-Error");
 
-    if(!isNaN(sal) && sal !== ""){
+    if(sal !== ""){
         salTag.style.removeProperty("border");
         salError.innerHTML = "";    
         return sal;
