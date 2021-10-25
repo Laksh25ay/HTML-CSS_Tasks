@@ -59,12 +59,13 @@ function checkDob(){
     let dobHeading = dob.previousElementSibling;
 
     // let pattern = "/^([0-9]{2})\/([0-9]{2})\/([0-9]{4})$/";
+    let dobError = document.getElementById("dob-error");
     if(dobValue != ""){
         dobHeading.style.removeProperty("color");
+        dobError.innerHTML = "";
         return dobValue;
     }
     dobHeading.style.color = "red"; 
-    let dobError = document.getElementById("dob-error");
     dobError.innerHTML = "Please Enter Valid DOB*";
 }
 
