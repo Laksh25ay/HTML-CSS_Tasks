@@ -118,7 +118,7 @@ function checkHobbies(){
         let otherHobby = "";
         for(let val of hobby){
             if(val === "Other"){
-                otherHobby = prompt("Please Specify other Hobby");
+                otherHobby = prompt("Please Specify other Hobby").trim();
                 let otherIdx = hobby.indexOf("Other");
                 hobby.splice(otherIdx,1);
                 hobby.push(otherHobby);
@@ -128,8 +128,48 @@ function checkHobbies(){
     }
 }
 
+//Designation Validation
+function checkDesignation(){
+    let index = document.getElementById("designation").selectedIndex;
+    let allDesignations = document.getElementById("designation").options;
 
+    let designation = allDesignations[index].value;
+    return designation;
+}
 
+//Salary Fetch
+function checkSalary(){
+    let salTag = document.getElementById("salRanges");
+    
+    let sal = salTag.value.trim();
+    let salError = document.getElementById("sal-Error");
+
+    if(!isNaN(sal) && sal !== ""){
+        salTag.style.removeProperty("border");
+        salError.innerHTML = "";    
+        return sal;
+    }
+    salError = document.getElementById("sal-Error");
+    salError.innerHTML = "Please Enter Valid Salary*";
+    salTag.style.border = "2px solid red";
+}
+
+//Address Validation
+function checkAddress(){
+    let addressTag = document.getElementById("address");
+    let address = addressTag.value.trim();
+
+    let addressError = document.getElementById("address-error");
+    
+    if(address !== ""){
+        addressError.innerHTML = "";
+        addressTag.style.removeProperty("border");
+        return address;
+    }
+    addressTag.style.border = "2px red solid";
+    addressError.innerHTML = "Please Enter a valid Address*";
+
+}
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
@@ -139,11 +179,16 @@ form.addEventListener('submit', (e) => {
     let mobileNo = checkMob();
     let dob = checkDob();
     let hobbies = checkHobbies();
+    let designation = checkDesignation();
+    let sal = checkSalary();
+    let address = checkAddress();
     console.log(fname);
     console.log(lname);
     console.log(gender);
     console.log(mobileNo);
     console.log(dob);
     console.log(hobbies);
-    
+    console.log(designation);
+    console.log(sal);
+    console.log(address);
 });

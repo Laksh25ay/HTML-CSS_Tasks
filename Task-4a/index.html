@@ -50,7 +50,7 @@
                 <div class="dob-div">
                     <label for="dob" class="Dob-Heading">Enter Your DOB: </label>
                     <input id="dob" name="dob" type="date">
-                    <p id ="dob-error"></p>
+                    <p id="dob-error"></p>
                 </div>
 
                 <!-- Gender -->
@@ -80,7 +80,7 @@
                     <br>
                     <input name="otherr" id="otherr" type="checkbox" value="Other">
                     <label for="otherr">Other</label>
-                    <p id = "hobby-error"></p>
+                    <p id="hobby-error"></p>
                 </div>
 
                 <!-- Designation -->
@@ -104,10 +104,14 @@
                         <option value="500k- 800k">500k- 800k</option>
                         <option value="800k- 1000k">800k- 1000k</option>
                     </datalist>
+                    <p id="sal-Error"></p>
                 </div>
 
                 <!-- Address -->
-                <textarea cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+                <div class= "address-div">
+                    <textarea id="address" cols="30" rows="5" placeholder="Enter Your Address"></textarea>
+                    <p id="address-error"></p>
+                </div>
 
                 <input type="submit">
             </fieldset>
