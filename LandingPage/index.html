@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Buddle</title>
+</head>
+
+<body>
+    <style>
+        * {
+            font-family: 'Nunito', sans-serif;
+            ;
+        }
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><img src="./public/images/Logo.png" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">Find a Tutor <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">How it Works <span
+                            class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">Study Groups <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link font-weight-bold" href="#">Discussion Form <span
+                            class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <button class="btn btn-outline-primary mx-1 my-2 my-sm-0" type="submit">Sign In</button>
+                <button class="btn btn-primary mx-1 my-2 my-sm-0" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section
+        style="background-image: url('./public/images/HeaderImage.png'); width: 100%; height:100vh; background-repeat: no-repeat; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12 my-5 py-5">
+                    <h1 class="text-white font-weight-bold display-5">
+                        Build Skills With Experts
+                    </h1>
+                    <h1 class="text-white font-weight-bold display-5">
+                        Any Time, Anywhere
+                    </h1>
+                    <p class="text-white py-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum sequi
+                        aliquid fugit consectetur
+                        autem pariatur.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="d-flex flex-wrap button-div">
+                    <div class="form-group ">
+                        <div class="input-group">
+                            <div class="input-group-addon">
+                                <img src="./public/images/SearchIcon.jpg" alt="" width="auto" height="38px">
+                            </div>
+                            <input class="form-control" id="search" name="search" placeholder="Find a peer tutor"
+                                type="text" />
+                            <button class="btn text-white" style="background-color: #ff6800;">Search Now</button>
+                            <div class="mx-3 px-3 bg-dark text-center rounded-circle" style="opacity: 0.2;">
+                                <span class="text-center font-weight-bold text-white">OR</span>
+                            </div>
+                            <button class="btn text-white" style="background-color: #ff6800;">Become a tutor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features -->
+    <section class="my-5">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="display-5 font-weight-bold mb-5">Features</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Card-1 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/teacher.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">Amazing Peer Tutors</h3>
+                        <p>Hand picked peer tutors that have taken your classes, had your teachers, and know how to help
+                            you succeed</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-2 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/conversation.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">1 On 1 Sessions</h3>
+                        <p>Personalized 1 on 1 sessions wherever and whenever in an online learning space or in-person
+                        </p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-3 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/money.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">It’s Affordable</h3>
+                        <p>Many Peer Tutors are free because they’re university-funded or volunteers. Even private
+                            tutors…</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-4 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/connecting-people.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">Pay it Forward</h3>
+                        <p>Feeling Wise? Get help in one subject and tutor your peers in another. The sensei and...</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Learners -->
+    <section class="bg-light mb-5 p-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-12" style="position: relative;">
+
+                    <h1 class="font-weight-bold display-5">Let’s Hear From Our Learners</h1>
+                    <div>
+                        <p class="text-left font-weight-bold"> <img src="./public/images/shape.png" alt=""> I am a
+                            business statistics student and have
+                            been using this plateform to cover my weak topics. It’s totally worth it</p>
+                    </div>
+
+                    <div style="margin-top: 7rem">
+                        <h3 class="font-weight-bold">Claire Alexander</h3>
+                        <p>Student <span class="font-weight-bold">@University of Maryland, College Park</span></p>
+                    </div>
+
+                    <div class="slider my-5">
+                        <button class="left-arrow bg-white">
+                            <img src="./public/images/arrow-left-line.png" alt="">
+                        </button>
+                        <button class="right-arrow bg-white">
+                            <img src="./public/images/arrow-right-line.png" alt="">
+                        </button>
+
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="right-img">
+                        <img src="./public/images/bitmap.png" alt="">
+                        <div class="child">
+                            <a href="#">
+                                <img src="./public/images/group-25.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Features again-->
+    <section class="my-5">
+        <div class="container-fluid">
+            <div class="row text-center">
+                <div class="col-12">
+                    <h1 class="display-5 font-weight-bold mb-5">Features</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <!-- Card-1 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/teacher.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">Amazing Peer Tutors</h3>
+                        <p>Hand picked peer tutors that have taken your classes, had your teachers, and know how to help
+                            you succeed</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-2 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/conversation.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">1 On 1 Sessions</h3>
+                        <p>Personalized 1 on 1 sessions wherever and whenever in an online learning space or in-person
+                        </p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-3 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/money.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">It’s Affordable</h3>
+                        <p>Many Peer Tutors are free because they’re university-funded or volunteers. Even private
+                            tutors…</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+
+                <!-- Card-4 -->
+                <div class="col-lg-3 col-md-3 col-12">
+                    <div class="card-container text-center">
+                        <div class="img-background">
+                            <img src="./public/images/connecting-people.png" alt="">
+                        </div>
+                        <h3 class="font-weight-bold display-5">Pay it Forward</h3>
+                        <p>Feeling Wise? Get help in one subject and tutor your peers in another. The sensei and...</p>
+                        <a href="#" class="link-primary font-weight-bold">View Details ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="p-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-12">
+                    <img src="./public/images/group-7.png" alt="">
+                    <p class="text-white mt-4">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a sem sit amet tortor vehicula
+                        auctor at ac urna. Integer nec tortor vel mi egestas finibus nec non urna. Etiam a dui sit amet
+                        ligula aucto.
+                    </p>
+                    <div class="social">
+                        <img src="./public/images/group-29.png" alt="FB">
+                        <img src="./public/images/group-30.png" alt="">
+                        <img src="./public/images/group-31.png" alt="">
+                        <img src="./public/images/group-32.png" alt="">
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12 text-center">
+                    <h1 class="text-white"> Explore</h1>
+                    <ul>
+                        <li>
+                            <a class="text-decoration-none text-white" href="">Find a tutor</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-white" href="">How it works</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none text-white" href="">Study Group</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12">
+                    <h1 class="text-white"> Address</h1>
+                    <ul>
+                        <li class="Owner-Details">
+
+                            <p class="text-white"> 
+                                <img width="15px" height="16px" src="./public/images/combined-shape.png" alt="">
+                                3548 Quadra Street Golden Victoria Road, New York, USA
+                            </p>
+                        </li>
+                        <li class="Owner-Details">
+
+                            <p class="text-white"> 
+                                <img width="15px" height="16px" src="./public/images/phone.png" alt=""> 
+                                +1 (123) 456 7890
+                            </p>
+                        </li>
+                        <li class="Owner-Details">
+                            <p class="text-white"> 
+                                <img width="15px" height="16px" src="./public/images/email.png" alt="">
+                                 hello@buddle.com
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr style = "opacity: 0.1;" class = "border-white w-100">
+
+            <div class="row mt-5">
+                <div class="col-lg-6 col-md-6 col-12">
+                    <span class = "text-white">
+                        ©2021 Buddle is Proucly Powered by Lorem ipsum
+                    </span>
+                </div>
+                
+                <div class="col-lg-6 col-md-6 col-12 d-flex justify-content-end">
+                    <span class = "text-white">
+                        Sitemap | Privacy Policy | Terms & Conditions
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
