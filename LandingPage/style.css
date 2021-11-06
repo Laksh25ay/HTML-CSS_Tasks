@@ -271,9 +271,9 @@ footer > ul > li{
 
 @media screen and (max-width : 800px) {
 
-    .child{
+    /* .child{
         width: 100%;
-    }
+    } */
 
     .header-h1{
         font-size: 20px;
@@ -292,12 +292,12 @@ footer > ul > li{
         align-items: center;
     } */
     
-    .OR-div{
+    /* .OR-div{
         width: 25%;
         text-align: center;
-    }
+    } */
 
-    .header-btn-2{
+    /* .header-btn-2{
         width: 25%;
-    }
+    } */
 }
